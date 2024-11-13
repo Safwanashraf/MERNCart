@@ -36,7 +36,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-// Creating Upload Endpoint for images
+// Creating Upload Endpoint for Images
 
 app.use('/images', express.static('upload/images'))
 
@@ -83,6 +83,8 @@ const Product = mongoose.model("Product",{
         default: true,
     },
 })
+
+// Creating AddProduct Endpoint
 
 app.post('/addproduct',async (req, res)=>{
     let products = await Product.find({});
