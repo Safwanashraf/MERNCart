@@ -30,7 +30,7 @@ This is a full-stack E-commerce application built using React.js for the fronten
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/Safwanashraf/MERNCart.git
 cd your-repo-name# E-commerce Project
 ```
 
