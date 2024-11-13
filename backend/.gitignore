@@ -1,0 +1,6 @@
+# ignoring specific files
+.env
+# ignoring specific directories
+/node_modules
+# ignoring specific file directories
+*.png
